@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #172033;
+    line-height: 1.6;
+}
+
+header {
+    background: #12372a;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.3rem;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    padding: 15px;
+    background: #205c43;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: min(900px, 92%);
+    margin: 25px auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.card {
+    background: white;
+    padding: 24px;
+    margin: 20px 0;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px #0000000d;
+}
+
+.card h2 {
+    color: #205c43;
+    margin-top: 0;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #15803d;
+}
+
+.note {
+    color: #8a4b08;
+    font-size: 0.9rem;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background: #15803d;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #166534;
+}
+
+#result {
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #12372a;
+    color: white;
+}

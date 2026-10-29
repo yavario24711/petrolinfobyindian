@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetrolInfo | Fuel Smarter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>⛽ PetrolInfo</h1>
+        <p>Understand fuel. Plan your journey.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#calculator">Fuel Calculator</a>
+        <a href="#facts">Petrol Facts</a>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Your fuel, your knowledge.</h2>
+            <p>Learn about petrol and estimate your journey's fuel cost.</p>
+        </section>
+
+        <section class="card">
+            <h2>Sample Petrol Price</h2>
+            <p>Example price for demonstration only:</p>
+            <p class="price">₹100.00 / litre</p>
+            <p class="note">
+                This is sample data, not today's actual petrol price.
+            </p>
+        </section>
+
+        <section id="calculator" class="card">
+            <h2>Fuel Cost Calculator</h2>
+
+            <label for="distance">Distance (km)</label>
+            <input id="distance" type="number" min="0"
+                   step="any" placeholder="e.g. 150">
+
+            <label for="mileage">Vehicle mileage (km/litre)</label>
+            <input id="mileage" type="number" min="0"
+                   step="any" placeholder="e.g. 15">
+
+            <label for="petrolPrice">Petrol price (₹/litre)</label>
+            <input id="petrolPrice" type="number" min="0"
+                   step="any" value="100">
+
+            <button id="calculateBtn">Calculate Cost</button>
+
+            <p id="result" aria-live="polite">
+                Your result will appear here.
+            </p>
+        </section>
+
+        <section id="facts" class="card">
+            <h2>Petrol Facts</h2>
+
+            <article>
+                <h3>What is petrol?</h3>
+                <p>
+                    Petrol is a liquid fuel used in spark-ignition
+                    engines. It is produced mainly from crude oil.
+                </p>
+            </article>
+
+            <article>
+                <h3>What is mileage?</h3>
+                <p>
+                    Mileage tells you how far a vehicle travels
+                    per litre of fuel. Higher mileage generally
+                    means less fuel is needed for the same distance.
+                </p>
+            </article>
+
+            <article>
+                <h3>What is octane rating?</h3>
+                <p>
+                    Octane rating measures petrol's resistance
+                    to engine knocking. Follow your vehicle
+                    manufacturer's recommended fuel grade.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>PetrolInfo | An educational project</p>
+        <p>made by yuvraj singh of 9c ;D </p>
+    </footer>
+</body>
+</html>
